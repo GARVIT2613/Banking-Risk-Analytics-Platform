@@ -1,0 +1,32 @@
+BANKING RISK DATA WAREHOUSE
+
+RAW DATA
+
+auto_loan_securitisation_data
+dpd_snapshot_history
+dynamic_loss_monthly
+static_pool_vintage_data
+
+
+STAGING LAYER
+
+stg_auto_loan_securitisation_data
+stg_dpd_snapshot_history
+stg_dynamic_loss_monthly
+stg_static_pool_vintage_data
+
+
+DIMENSIONS
+
+DimBorrower
+DimVehicle
+DimRegion
+DimIFRSStage
+DimDate
+
+
+FACTS
+
+FactLoanPerformance
+FactDPDHistory
+FactVintagePerformance

@@ -1,0 +1,37 @@
+WINDOW FUNCTIONS
+
+RANK()
+ROW_NUMBER()
+DENSE_RANK()
+Running Balance
+Running ECL
+
+CTEs
+
+HighRiskLoans
+
+VIEWS
+
+vw_IFRS9_ECL
+vw_Portfolio_Health
+vw_DPD_Summary
+
+INDEXES
+
+idx_loanid
+idx_poolid
+idx_borrowerid
+idx_region
+
+STORED PROCEDURES
+
+Refresh_Portfolio
+
+BANKING ANALYTICS
+
+Portfolio Balance
+Total ECL
+Stage Distribution
+Top Risk Loans
+Risky States
+Portfolio Delinquency
