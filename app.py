@@ -139,7 +139,7 @@ def apply_dashboard_theme(dashboard_name: str) -> dict:
         border-top: 4px solid {t['accent']} !important;
         box-shadow: 0 1px 3px rgba(15,23,42,0.06);
     }}
-    div[data-testid="stMetricValue"] {{ color: {t['kpi_text']} !important; }}
+    div[data-testid="stMetricValue"] {{ color: {BASE_TEXT} !important; }}
     div[data-testid="stMetricLabel"] {{ color: {BASE_TEXT}99 !important; }}
 
     section[data-testid="stSidebar"] {{ background-color: #FFFFFF; border-right: 1px solid {BASE_BORDER}; }}
